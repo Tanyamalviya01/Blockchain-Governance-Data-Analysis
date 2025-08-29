@@ -1,0 +1,12 @@
+=== LDA PARAMETERS USED ===
+Number of topics: 15
+Vectorizer: CountVectorizer
+Max features: 1000
+Min document frequency: 2
+Max document frequency: 0.8
+N-gram range: (1, 2)
+Stop words: English
+LDA max iterations: 100
+Learning method: batch
+Random state: 42
+Topic diversity metric: Shannon Entropy
