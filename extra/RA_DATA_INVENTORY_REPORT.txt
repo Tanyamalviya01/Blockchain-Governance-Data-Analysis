@@ -1,0 +1,1653 @@
+RA RESEARCH DATA INVENTORY REPORT
+================================================================================
+Generated on: 2025-07-11 03:26:06
+Total files to analyze: 22
+
+
+============================================================
+FILE: Block Data
+PATH: commits/blockchain_block_data_real_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 73,150 rows × 12 columns
+💾 SIZE: 24.1 MB
+
+🔍 FOUND VARIABLES:
+  Panel Variables: difficulty
+  Time Variables: year, Platform
+
+📅 DATE INFORMATION:
+  years: [2021, 2022, 2023, 2024]
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Litecoin', 'Dogecoin', 'Bitcoin_Cash', 'Dash', 'Bitcoin_SV']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. block_id
+   3. block_hash
+   4. block_time
+   5. block_date
+   6. block_size
+   7. transaction_count
+   8. difficulty
+   9. miner
+  10. reward
+  11. fee_total
+  12. year
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2021}
+  Row 2: {'Platform': 'Bitcoin', 'year': 2021}
+  Row 3: {'Platform': 'Bitcoin', 'year': 2021}
+
+
+============================================================
+FILE: Commit Data
+PATH: commits/blockchain_commit_data_all_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 40,582 rows × 13 columns
+💾 SIZE: 50.1 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: year, Platform
+
+📅 DATE INFORMATION:
+  years: [2021, 2022, 2023, 2024]
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Ethereum_Go', 'Bitcoin', 'Bitcoin_Cash', 'Dogecoin', 'Bitcoin_SV', 'Dash', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Token_id
+   2. commit_id
+   3. author_name
+   4. author_email
+   5. author_date
+   6. committer_name
+   7. committer_email
+   8. commit_date
+   9. commit_message
+  10. commit_verified
+  11. commit_reason
+  12. Platform
+  13. year
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Ethereum_Go', 'year': 2021}
+  Row 2: {'Platform': 'Ethereum_Go', 'year': 2021}
+  Row 3: {'Platform': 'Ethereum_Go', 'year': 2021}
+
+
+============================================================
+FILE: Decentralization Metrics
+PATH: commits/blockchain_decentralization_metrics_weekly_2021_2024_fixed.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,467 rows × 11 columns
+💾 SIZE: 0.2 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Bitcoin_Cash', 'Bitcoin_SV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Block_Inverse_HHI
+   5. Block_Shannon_Entropy
+   6. Total_Blocks
+   7. Unique_Miners
+   8. Commit_Inverse_HHI
+   9. Commit_Shannon_Entropy
+  10. Total_Commits
+  11. Unique_Authors
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Bitcoin'}
+  Row 3: {'Platform': 'Bitcoin'}
+
+
+============================================================
+FILE: Market & Hashrate
+PATH: commits/blockchain_market_hashrate_weekly_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,456 rows × 5 columns
+💾 SIZE: 0.1 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Bitcoin Cash', 'Dogecoin', 'Bitcoin SV', 'Dash', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Market_Capitalization
+   5. Hash_Rate
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Bitcoin'}
+  Row 3: {'Platform': 'Bitcoin'}
+
+
+============================================================
+FILE: Ethereum EIP Data
+PATH: commits/ethereum_eip_data_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 50 rows × 9 columns
+💾 SIZE: 0.1 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Ethereum']
+  platform_count: 1
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Number
+   3. Layer
+   4. Title
+   5. Owner
+   6. Type
+   7. Status
+   8. Date
+   9. Content
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Ethereum'}
+  Row 2: {'Platform': 'Ethereum'}
+  Row 3: {'Platform': 'Ethereum'}
+
+
+============================================================
+FILE: Improvement Proposals
+PATH: commits/improvement_proposals_all_platforms_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 30 rows × 10 columns
+💾 SIZE: 0.0 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: year, Platform
+
+📅 DATE INFORMATION:
+  years: [2021, 2022, 2023, 2024]
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin']
+  platform_count: 1
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Number
+   3. Layer
+   4. Title
+   5. Owner
+   6. Type
+   7. Status
+   8. Date
+   9. Content
+  10. year
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2024}
+  Row 2: {'Platform': 'Bitcoin', 'year': 2024}
+  Row 3: {'Platform': 'Bitcoin', 'year': 2022}
+
+
+============================================================
+FILE: Historical Panel Data
+PATH: proposal/Panel_data_cleaned_May23_2025.dta
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 12,684 rows × 267 columns
+💾 SIZE: 30.2 MB
+
+🔍 FOUND VARIABLES:
+  Panel Variables: mean_difficulty, max_difficulty
+  Market Variables: market_cap, Volume_USD
+  API Variables: stars, forks, reddit_subscribers
+  Time Variables: date, year, week, Platform
+
+📅 DATE INFORMATION:
+  date_range: Could not parse dates
+  years: [2015, 2016, 2017, 2018, 2019, 2020]
+  week_range: {'min': 1, 'max': 53}
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', '', 'BitcoinCash', 'BitcoinSV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 8
+
+📋 ALL COLUMNS:
+   1. date
+   2. Platform
+   3. year
+   4. week
+   5. Commit_invHHI
+   6. Block_invHHI_x
+   7. Date_x
+   8. price
+   9. market_cap
+  10. total_volume
+  11. Release_date
+  12. Platform_Age
+  13. total_proposals
+  14. total_completed_proposals
+  15. unique_authors
+  16. N_topic75
+  17. Date_y
+  18. Price_usd
+  19. Market_cap_BTC
+  20. Market_cap_ETH
+  21. Market_cap_USD
+  22. Volume_USD
+  23. facebook_likes
+  24. twitter_followers
+  25. reddit_posts_48h
+  26. reddit_comments_48h
+  27. reddit_subscribers
+  28. reddit_accounts_active_48h
+  29. forks
+  30. stars
+  31. github_subscribers
+  32. github_total_issues
+  33. github_closed_issues
+  34. pull_requests_merged
+  35. pull_request_contributors
+  36. code_additions_4w
+  37. code_deletion_4w
+  38. commit_count_4w
+  39. alexa_rank
+  40. bing_matches
+  41. Social_Attention
+  42. Public_Interest
+  43. Developer_Attention
+  44. Block_invHHI2
+  45. date_x
+  46. count_miner_x
+  47. Block_invHHI3
+  48. date_y
+  49. count_miner_y
+  50. date2
+  51. platform_id
+  52. date3
+  53. log_Block_invHHI2
+  54. log_Commit_invHHI
+  55. log_MC
+  56. log_n_proposals
+  57. log_n_completed_prpsl
+  58. log_N_topics
+  59. log_unique_authors
+  60. log_social_attention
+  61. log_public_interest
+  62. log_developer_attention
+  63. log_MC_BTC
+  64. log_MC_ETH
+  65. log_MC_USD
+  66. log_Price
+  67. log_volume_USD
+  68. log_Block_invHHI2_lag
+  69. log_Commit_invHHI_lag
+  70. log_MC_lag
+  71. log_n_proposals_lag
+  72. log_n_completed_prpsl_lag
+  73. log_N_topics_lag
+  74. log_unique_authors_lag
+  75. log_social_attention_lag
+  76. log_developer_attention_lag
+  77. log_public_interest_lag
+  78. log_Block_invHHI2_lag2
+  79. log_Block_invHHI3
+  80. log_Block_invHHI3_lag2
+  81. log_Commit_invHHI2_lag
+  82. log_MC_lag2
+  83. log_n_proposals_lag2
+  84. log_n_completed_prpsl_lag2
+  85. log_N_topics_lag2
+  86. log_unique_authors_lag2
+  87. log_social_attention_lag2
+  88. log_developer_attention_lag2
+  89. log_public_interest_lag2
+  90. log_Block_invHHI2_lag_sq
+  91. log_Commit_invHHI_lag_sq
+  92. month
+  93. log_Block_invHHI3_lag
+  94. log_n_proposals_lag_sq
+  95. log_N_topics_sq
+  96. log_unique_authors_lag_sq
+  97. unique_authors_lag
+  98. a
+  99. b
+  100. ab
+  101. S_a
+  102. S_b
+  103. S_ab
+  104. critical_ratio
+  105. log_MC_BTC_delta
+  106. log_MC_ETH_delta
+  107. Phy_Dev_Decen_Inter
+  108. Phy_Dev_Decen_Inter_sq
+  109. Proposal_NXTopic
+  110. Proposal_NXAuthors
+  111. alexa_rank_lag
+  112. log_alexa_rank_lag
+  113. forks_lag
+  114. log_forks_lag
+  115. stars_lag
+  116. log_stars_lag
+  117. reddit_comments_48h_lag
+  118. lreddit_comments_lag
+  119. Platform_Age_lag
+  120. log_Platform_Age_lag
+  121. Date
+  122. Hashrate
+  123. log_reddit_posts_48h
+  124. lreddit_posts_lag
+  125. log_reddit_subscribers
+  126. log_reddit_subscribers_lag
+  127. log_hashrate
+  128. log_hashrate_lag
+  129. log_alexa_rank_lag7
+  130. log_forks_lag7
+  131. log_stars_lag7
+  132. log_reddit_comments_lag
+  133. log_Platform_Age_lag7
+  134. log_Block_invHHI3_sq
+  135. log_Block_invHHI3_sq_lag
+  136. log_Commit_invHHI_sq
+  137. log_Commit_invHHI_sq_lag
+  138. log_n_proposals_lag7
+  139. log_N_topics_lag7
+  140. log_unique_authors_lag7
+  141. log_social_attention_lag7
+  142. log_developer_attention_lag7
+  143. log_public_interest_lag7
+  144. log_Commit_invHHI_lag2
+  145. log_Commit_invHHI_sq_lag2
+  146. mean_difficulty
+  147. max_difficulty
+  148. Commit_invHHI_Top3_IV
+  149. Commit_invHHI_Top5_IV
+  150. Commit_invHHI_Top10_IV
+  151. Commit_invHHI_Top50per_IV
+  152. Median_Commit_invHHI_Top3_IV
+  153. Median_Commit_invHHI_Top5_IV
+  154. Median_Commit_invHHI_Top10_IV
+  155. Median_Commit_invHHI_50perIV
+  156. log_Block_invHHI3_lag_sq
+  157. max_difficulty_sq
+  158. X_est_FE2
+  159. Commit_invHHI_Top3_IV_sq
+  160. lCommit_invHHI_Top3_IV
+  161. llCommit_invHHI_Top3_IV_lag
+  162. lCommit_invHHI_Top5_IV
+  163. llCommit_invHHI_Top5_IV_lag
+  164. lCommit_invHHI_Top10_IV
+  165. llCommit_invHHI_Top10_IV_lag
+  166. lCommit_invHHI_Top50per_IV
+  167. llCommitTop50per_IV_lag
+  168. lmax_difficulty
+  169. lmax_difficulty_lag
+  170. lmax_difficulty_lag2
+  171. llCommit_invHHI_Top3_IV_lag2
+  172. llCommit_invHHI_Top5_IV_lag2
+  173. llCommit_invHHI_Top10_IV_lag2
+  174. llCommit_Top50per_IV_lag2
+  175. lmax_difficulty_lag2_sq
+  176. lCommitTop50per_IV_lag
+  177. mean_difficulty_sq
+  178. log_mean_difficulty
+  179. llCommit_IV_50per
+  180. llCommit_invHHI_Top3_IV_lag_sq
+  181. lmean_difficulty_sq
+  182. lMedian_Commit_invHHI_Top10_IV
+  183. lMed_Commit_invHHI_Top10_IV
+  184. lMed_Commit_invHHI_Top10_IV_lag2
+  185. lMed_Commit_invHHI_50perIV
+  186. lMed_Commit_invHHI_50perIV_lag2
+  187. llCommit_Top50per_lag2_sq
+  188. log_mean_difficulty_lag2
+  189. log_mean_difficulty_lag2_sq
+  190. lMed_Commit_invHHI_Top10_lag2_sq
+  191. llCommit_invHHI_Top3_IV_lag2_sq
+  192. llCommit_Top5_IV_lag2_sq
+  193. llCommit_invHHI_Top10_IV_lag2_sq
+  194. lMed_Commit_invHHI_50per_lag2_sq
+  195. z1
+  196. z2
+  197. z3
+  198. z4
+  199. z5
+  200. z6
+  201. z7
+  202. z8
+  203. z9
+  204. z10
+  205. z11
+  206. z12
+  207. z13
+  208. z14
+  209. z15
+  210. x1
+  211. x2
+  212. x4
+  213. z16
+  214. post_rust
+  215. post_hyperledger
+  216. lmean_difficulty
+  217. lmean_difficulty_lag
+  218. lmax_difficulty_lag_sq
+  219. lmean_difficulty_lag_sq
+  220. post_AntminerS9
+  221. year_week
+  222. llCommit_IV_50per_lag
+  223. variance_electricity
+  224. lvariance_electro
+  225. llCommitTop3_IV_lag_sq
+  226. llCommitTop5_IV_lag_sq
+  227. llCommitTop10_IV_lag_sq
+  228. llCommitTop50per_IV_lag_sq
+  229. lgithub_total_issues
+  230. lgithub_n_issues_lag
+  231. lreddit_subscribers
+  232. lreddit_subscribers_lag
+  233. lmax_difficulty_sq
+  234. _est_StdIV
+  235. _est_GenInst
+  236. _est_GenExtInst
+  237. lCommit_invHHI_Top10_IV_sq
+  238. lCommit_invHHI_Top50per_IV_sq
+  239. lCommit_invHHI_Top5_IV_sq
+  240. lCommit_invHHI_Top3_IV_sq
+  241. mean_residuals
+  242. TSS
+  243. total_sum_squares
+  244. SSR
+  245. sum_squared_residuals
+  246. r_squared
+  247. x3
+  248. gpu_variance
+  249. solidity_variance
+  250. solidity_variance_sq
+  251. lsolidity_variance
+  252. lsolidity_variance_sq
+  253. IV_commit_50per
+  254. IV_commit_50per_sq
+  255. log_reddit_posts_lag
+  256. Date_hr
+  257. lreddit_subscriber_lag
+  258. x1_hat
+  259. x2_hat
+  260. x3_hat
+  261. x4_hat
+  262. shannon_entropy_block
+  263. log_entropy_block
+  264. shannon_entropy_commit
+  265. log_entropy_commit
+  266. log_entropy_block_lag
+  267. log_entropy_commit_lag
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2015.0, 'week': 1.0, 'date': datetime.datetime(2346, 5, 21, 0, 0)}
+  Row 2: {'Platform': '', 'year': nan, 'week': nan, 'date': datetime.datetime(2346, 5, 28, 0, 0)}
+  Row 3: {'Platform': '', 'year': nan, 'week': nan, 'date': datetime.datetime(2346, 6, 4, 0, 0)}
+
+
+============================================================
+FILE: Detailed Proposals
+PATH: proposal/detailed_proposal_analysis.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 851 rows × 32 columns
+💾 SIZE: 19.3 MB
+
+🔍 FOUND VARIABLES:
+  Proposal Variables: topic_diversity
+  Time Variables: year, Platform
+
+📅 DATE INFORMATION:
+  years: [2021, 2022, 2023, 2024]
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin Cash', 'Bitcoin SV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin', 'Bitcoin ']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Number
+   3. Layer
+   4. Title
+   5. Owner
+   6. Type
+   7. Status
+   8. Date
+   9. Content
+  10. year
+  11. Unnamed: 0
+  12. Note: (The collection date is 4/26/2022)
+  13. Unnamed: 2
+  14. Unnamed: 3
+  15. Unnamed: 4
+  16. Unnamed: 5
+  17. Unnamed: 6
+  18. Unnamed: 7
+  19. Unnamed: 8
+  20. Unnamed: 9
+  21. Unnamed: 10
+  22. Unnamed: 11
+  23. Unnamed: 12
+  24. Unnamed: 13
+  25. Lauer
+  26. Author 
+  27. Stage
+  28. Author
+  29. Week Index
+  30. Date 
+  31. cleaned_content
+  32. topic_diversity
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin Cash', 'year': 2021.0}
+  Row 2: {'Platform': 'Bitcoin Cash', 'year': 2022.0}
+  Row 3: {'Platform': 'Bitcoin Cash', 'year': 2023.0}
+
+
+============================================================
+FILE: Integrated Dataset
+PATH: proposal/integrated_blockchain_governance_dataset_2015_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,968 rows × 15 columns
+💾 SIZE: 0.3 MB
+
+🔍 FOUND VARIABLES:
+  Proposal Variables: Number_Proposal, Topic_Diversity
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Bitcoin ', 'Bitcoin Cash', 'Bitcoin SV', 'Bitcoin_Cash', 'Bitcoin_SV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 10
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Block_Inverse_HHI
+   5. Block_Shannon_Entropy
+   6. Total_Blocks
+   7. Unique_Miners
+   8. Commit_Inverse_HHI
+   9. Commit_Shannon_Entropy
+  10. Total_Commits
+  11. Unique_Authors
+  12. Market_Capitalization
+  13. Hash_Rate
+  14. Number_Proposal
+  15. Topic_Diversity
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Bitcoin'}
+  Row 3: {'Platform': 'Bitcoin'}
+
+
+============================================================
+FILE: Topic Diversity
+PATH: proposal/proposal_topic_diversity_weekly.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 206 rows × 5 columns
+💾 SIZE: 0.0 MB
+
+🔍 FOUND VARIABLES:
+  Proposal Variables: Number_Proposal, Topic_Diversity
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin ', 'Bitcoin Cash', 'Bitcoin SV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Number_Proposal
+   5. Topic_Diversity
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin '}
+  Row 2: {'Platform': 'Bitcoin '}
+  Row 3: {'Platform': 'Bitcoin '}
+
+
+============================================================
+FILE: Group 1 Final Dataset
+PATH: proposal/updated work/GROUP1_FINAL_integrated_dataset_memory_efficient.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 26,932 rows × 279 columns
+💾 SIZE: 65.1 MB
+
+🔍 FOUND VARIABLES:
+  Panel Variables: mean_difficulty, max_difficulty
+  Market Variables: market_cap, Volume_USD, price_USD
+  Proposal Variables: Number_Proposal, Topic_Diversity
+  API Variables: stars, forks, reddit_subscribers, reddit_posts, reddit_comments, Platform_age
+  Time Variables: date, year, week, Platform
+
+📅 DATE INFORMATION:
+  date_range: Could not parse dates
+  years: [2015, 2016, 2017, 2018, 2019, 2020]
+  week_range: {'min': 1, 'max': 53}
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'BitcoinCash', 'BitcoinSV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. date
+   2. Platform
+   3. year
+   4. week
+   5. Commit_invHHI
+   6. Block_invHHI_x
+   7. Date_x
+   8. price
+   9. market_cap
+  10. total_volume
+  11. Release_date
+  12. Platform_Age
+  13. total_proposals
+  14. total_completed_proposals
+  15. unique_authors
+  16. N_topic75
+  17. Date_y
+  18. Price_usd
+  19. Market_cap_BTC
+  20. Market_cap_ETH
+  21. Market_cap_USD
+  22. Volume_USD
+  23. facebook_likes
+  24. twitter_followers
+  25. reddit_posts_48h
+  26. reddit_comments_48h
+  27. reddit_subscribers
+  28. reddit_accounts_active_48h
+  29. forks
+  30. stars
+  31. github_subscribers
+  32. github_total_issues
+  33. github_closed_issues
+  34. pull_requests_merged
+  35. pull_request_contributors
+  36. code_additions_4w
+  37. code_deletion_4w
+  38. commit_count_4w
+  39. alexa_rank
+  40. bing_matches
+  41. Social_Attention
+  42. Public_Interest
+  43. Developer_Attention
+  44. Block_invHHI2
+  45. date_x
+  46. count_miner_x
+  47. Block_invHHI3
+  48. date_y
+  49. count_miner_y
+  50. date2
+  51. platform_id
+  52. date3
+  53. log_Block_invHHI2
+  54. log_Commit_invHHI
+  55. log_MC
+  56. log_n_proposals
+  57. log_n_completed_prpsl
+  58. log_N_topics
+  59. log_unique_authors
+  60. log_social_attention
+  61. log_public_interest
+  62. log_developer_attention
+  63. log_MC_BTC
+  64. log_MC_ETH
+  65. log_MC_USD
+  66. log_Price
+  67. log_volume_USD
+  68. log_Block_invHHI2_lag
+  69. log_Commit_invHHI_lag
+  70. log_MC_lag
+  71. log_n_proposals_lag
+  72. log_n_completed_prpsl_lag
+  73. log_N_topics_lag
+  74. log_unique_authors_lag
+  75. log_social_attention_lag
+  76. log_developer_attention_lag
+  77. log_public_interest_lag
+  78. log_Block_invHHI2_lag2
+  79. log_Block_invHHI3
+  80. log_Block_invHHI3_lag2
+  81. log_Commit_invHHI2_lag
+  82. log_MC_lag2
+  83. log_n_proposals_lag2
+  84. log_n_completed_prpsl_lag2
+  85. log_N_topics_lag2
+  86. log_unique_authors_lag2
+  87. log_social_attention_lag2
+  88. log_developer_attention_lag2
+  89. log_public_interest_lag2
+  90. log_Block_invHHI2_lag_sq
+  91. log_Commit_invHHI_lag_sq
+  92. month
+  93. log_Block_invHHI3_lag
+  94. log_n_proposals_lag_sq
+  95. log_N_topics_sq
+  96. log_unique_authors_lag_sq
+  97. unique_authors_lag
+  98. a
+  99. b
+  100. ab
+  101. S_a
+  102. S_b
+  103. S_ab
+  104. critical_ratio
+  105. log_MC_BTC_delta
+  106. log_MC_ETH_delta
+  107. Phy_Dev_Decen_Inter
+  108. Phy_Dev_Decen_Inter_sq
+  109. Proposal_NXTopic
+  110. Proposal_NXAuthors
+  111. alexa_rank_lag
+  112. log_alexa_rank_lag
+  113. forks_lag
+  114. log_forks_lag
+  115. stars_lag
+  116. log_stars_lag
+  117. reddit_comments_48h_lag
+  118. lreddit_comments_lag
+  119. Platform_Age_lag
+  120. log_Platform_Age_lag
+  121. Date
+  122. Hashrate
+  123. log_reddit_posts_48h
+  124. lreddit_posts_lag
+  125. log_reddit_subscribers
+  126. log_reddit_subscribers_lag
+  127. log_hashrate
+  128. log_hashrate_lag
+  129. log_alexa_rank_lag7
+  130. log_forks_lag7
+  131. log_stars_lag7
+  132. log_reddit_comments_lag
+  133. log_Platform_Age_lag7
+  134. log_Block_invHHI3_sq
+  135. log_Block_invHHI3_sq_lag
+  136. log_Commit_invHHI_sq
+  137. log_Commit_invHHI_sq_lag
+  138. log_n_proposals_lag7
+  139. log_N_topics_lag7
+  140. log_unique_authors_lag7
+  141. log_social_attention_lag7
+  142. log_developer_attention_lag7
+  143. log_public_interest_lag7
+  144. log_Commit_invHHI_lag2
+  145. log_Commit_invHHI_sq_lag2
+  146. mean_difficulty
+  147. max_difficulty
+  148. Commit_invHHI_Top3_IV
+  149. Commit_invHHI_Top5_IV
+  150. Commit_invHHI_Top10_IV
+  151. Commit_invHHI_Top50per_IV
+  152. Median_Commit_invHHI_Top3_IV
+  153. Median_Commit_invHHI_Top5_IV
+  154. Median_Commit_invHHI_Top10_IV
+  155. Median_Commit_invHHI_50perIV
+  156. log_Block_invHHI3_lag_sq
+  157. max_difficulty_sq
+  158. X_est_FE2
+  159. Commit_invHHI_Top3_IV_sq
+  160. lCommit_invHHI_Top3_IV
+  161. llCommit_invHHI_Top3_IV_lag
+  162. lCommit_invHHI_Top5_IV
+  163. llCommit_invHHI_Top5_IV_lag
+  164. lCommit_invHHI_Top10_IV
+  165. llCommit_invHHI_Top10_IV_lag
+  166. lCommit_invHHI_Top50per_IV
+  167. llCommitTop50per_IV_lag
+  168. lmax_difficulty
+  169. lmax_difficulty_lag
+  170. lmax_difficulty_lag2
+  171. llCommit_invHHI_Top3_IV_lag2
+  172. llCommit_invHHI_Top5_IV_lag2
+  173. llCommit_invHHI_Top10_IV_lag2
+  174. llCommit_Top50per_IV_lag2
+  175. lmax_difficulty_lag2_sq
+  176. lCommitTop50per_IV_lag
+  177. mean_difficulty_sq
+  178. log_mean_difficulty
+  179. llCommit_IV_50per
+  180. llCommit_invHHI_Top3_IV_lag_sq
+  181. lmean_difficulty_sq
+  182. lMedian_Commit_invHHI_Top10_IV
+  183. lMed_Commit_invHHI_Top10_IV
+  184. lMed_Commit_invHHI_Top10_IV_lag2
+  185. lMed_Commit_invHHI_50perIV
+  186. lMed_Commit_invHHI_50perIV_lag2
+  187. llCommit_Top50per_lag2_sq
+  188. log_mean_difficulty_lag2
+  189. log_mean_difficulty_lag2_sq
+  190. lMed_Commit_invHHI_Top10_lag2_sq
+  191. llCommit_invHHI_Top3_IV_lag2_sq
+  192. llCommit_Top5_IV_lag2_sq
+  193. llCommit_invHHI_Top10_IV_lag2_sq
+  194. lMed_Commit_invHHI_50per_lag2_sq
+  195. z1
+  196. z2
+  197. z3
+  198. z4
+  199. z5
+  200. z6
+  201. z7
+  202. z8
+  203. z9
+  204. z10
+  205. z11
+  206. z12
+  207. z13
+  208. z14
+  209. z15
+  210. x1
+  211. x2
+  212. x4
+  213. z16
+  214. post_rust
+  215. post_hyperledger
+  216. lmean_difficulty
+  217. lmean_difficulty_lag
+  218. lmax_difficulty_lag_sq
+  219. lmean_difficulty_lag_sq
+  220. post_AntminerS9
+  221. year_week
+  222. llCommit_IV_50per_lag
+  223. variance_electricity
+  224. lvariance_electro
+  225. llCommitTop3_IV_lag_sq
+  226. llCommitTop5_IV_lag_sq
+  227. llCommitTop10_IV_lag_sq
+  228. llCommitTop50per_IV_lag_sq
+  229. lgithub_total_issues
+  230. lgithub_n_issues_lag
+  231. lreddit_subscribers
+  232. lreddit_subscribers_lag
+  233. lmax_difficulty_sq
+  234. _est_StdIV
+  235. _est_GenInst
+  236. _est_GenExtInst
+  237. lCommit_invHHI_Top10_IV_sq
+  238. lCommit_invHHI_Top50per_IV_sq
+  239. lCommit_invHHI_Top5_IV_sq
+  240. lCommit_invHHI_Top3_IV_sq
+  241. mean_residuals
+  242. TSS
+  243. total_sum_squares
+  244. SSR
+  245. sum_squared_residuals
+  246. r_squared
+  247. x3
+  248. gpu_variance
+  249. solidity_variance
+  250. solidity_variance_sq
+  251. lsolidity_variance
+  252. lsolidity_variance_sq
+  253. IV_commit_50per
+  254. IV_commit_50per_sq
+  255. log_reddit_posts_lag
+  256. Date_hr
+  257. lreddit_subscriber_lag
+  258. x1_hat
+  259. x2_hat
+  260. x3_hat
+  261. x4_hat
+  262. shannon_entropy_block
+  263. log_entropy_block
+  264. shannon_entropy_commit
+  265. log_entropy_commit
+  266. log_entropy_block_lag
+  267. log_entropy_commit_lag
+  268. Year
+  269. Week
+  270. Number_Proposal
+  271. Topic_Diversity
+  272. stars_api
+  273. forks_api
+  274. reddit_subscribers_api
+  275. reddit_posts
+  276. reddit_comments
+  277. Volume_USD_api
+  278. Platform_age
+  279. price_USD
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2015.0, 'week': 1.0, 'date': datetime.datetime(2346, 5, 21, 0, 0)}
+  Row 2: {'Platform': nan, 'year': nan, 'week': nan, 'date': datetime.datetime(2346, 5, 28, 0, 0)}
+  Row 3: {'Platform': nan, 'year': nan, 'week': nan, 'date': datetime.datetime(2346, 6, 4, 0, 0)}
+
+
+============================================================
+FILE: CryptoCompare Data
+PATH: proposal/updated work/cryptocompare_timeseries_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,462 rows × 7 columns
+💾 SIZE: 0.2 MB
+
+🔍 FOUND VARIABLES:
+  Market Variables: Volume_USD, price_USD
+  API Variables: Platform_age
+  Time Variables: date, year, week, Platform
+
+📅 DATE INFORMATION:
+  date_range: {'min': '2021-01-01 00:00:00', 'max': '2024-12-27 00:00:00'}
+  years: [2021, 2022, 2023, 2024]
+  week_range: {'min': 1, 'max': 53}
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Litecoin', 'Dogecoin', 'Dash', 'Bitcoin Cash', 'Bitcoin SV']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. date
+   3. year
+   4. week
+   5. Volume_USD
+   6. price_USD
+   7. Platform_age
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2021, 'week': 53, 'date': Timestamp('2021-01-01 00:00:00')}
+  Row 2: {'Platform': 'Bitcoin', 'year': 2021, 'week': 1, 'date': Timestamp('2021-01-08 00:00:00')}
+  Row 3: {'Platform': 'Bitcoin', 'year': 2021, 'week': 2, 'date': Timestamp('2021-01-15 00:00:00')}
+
+
+============================================================
+FILE: Difficulty Data
+PATH: proposal/updated work/difficulty_data_full_2021_2024.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,682 rows × 5 columns
+💾 SIZE: 0.2 MB
+
+🔍 FOUND VARIABLES:
+  Panel Variables: difficulty
+  Time Variables: date, year, week, Platform
+
+📅 DATE INFORMATION:
+  date_range: {'min': '2021-01-04 00:00:00', 'max': '2025-07-10 19:33:31.383000'}
+  years: [2021, 2022, 2023, 2024, 2025]
+  week_range: {'min': 1, 'max': 52}
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Litecoin', 'Dogecoin', 'Dash', 'Bitcoin Cash', 'Z-Cash', 'E-Cash', 'Monero', 'Ethereum']
+  platform_count: 9
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. date
+   3. year
+   4. week
+   5. difficulty
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2021, 'week': 27, 'date': Timestamp('2021-07-11 00:00:00')}
+  Row 2: {'Platform': 'Bitcoin', 'year': 2021, 'week': 28, 'date': Timestamp('2021-07-12 00:00:00')}
+  Row 3: {'Platform': 'Bitcoin', 'year': 2021, 'week': 28, 'date': Timestamp('2021-07-13 00:00:00')}
+
+
+============================================================
+FILE: Base Panel Checkpoint
+PATH: proposal/updated work/task1_base_panel_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 12,684 rows × 267 columns
+💾 SIZE: 28.4 MB
+
+🔍 FOUND VARIABLES:
+  Panel Variables: mean_difficulty, max_difficulty
+  Market Variables: market_cap, Volume_USD
+  API Variables: stars, forks, reddit_subscribers
+  Time Variables: date, year, week, Platform
+
+📅 DATE INFORMATION:
+  date_range: Could not parse dates
+  years: [2015, 2016, 2017, 2018, 2019, 2020]
+  week_range: {'min': 1, 'max': 53}
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'BitcoinCash', 'BitcoinSV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. date
+   2. Platform
+   3. year
+   4. week
+   5. Commit_invHHI
+   6. Block_invHHI_x
+   7. Date_x
+   8. price
+   9. market_cap
+  10. total_volume
+  11. Release_date
+  12. Platform_Age
+  13. total_proposals
+  14. total_completed_proposals
+  15. unique_authors
+  16. N_topic75
+  17. Date_y
+  18. Price_usd
+  19. Market_cap_BTC
+  20. Market_cap_ETH
+  21. Market_cap_USD
+  22. Volume_USD
+  23. facebook_likes
+  24. twitter_followers
+  25. reddit_posts_48h
+  26. reddit_comments_48h
+  27. reddit_subscribers
+  28. reddit_accounts_active_48h
+  29. forks
+  30. stars
+  31. github_subscribers
+  32. github_total_issues
+  33. github_closed_issues
+  34. pull_requests_merged
+  35. pull_request_contributors
+  36. code_additions_4w
+  37. code_deletion_4w
+  38. commit_count_4w
+  39. alexa_rank
+  40. bing_matches
+  41. Social_Attention
+  42. Public_Interest
+  43. Developer_Attention
+  44. Block_invHHI2
+  45. date_x
+  46. count_miner_x
+  47. Block_invHHI3
+  48. date_y
+  49. count_miner_y
+  50. date2
+  51. platform_id
+  52. date3
+  53. log_Block_invHHI2
+  54. log_Commit_invHHI
+  55. log_MC
+  56. log_n_proposals
+  57. log_n_completed_prpsl
+  58. log_N_topics
+  59. log_unique_authors
+  60. log_social_attention
+  61. log_public_interest
+  62. log_developer_attention
+  63. log_MC_BTC
+  64. log_MC_ETH
+  65. log_MC_USD
+  66. log_Price
+  67. log_volume_USD
+  68. log_Block_invHHI2_lag
+  69. log_Commit_invHHI_lag
+  70. log_MC_lag
+  71. log_n_proposals_lag
+  72. log_n_completed_prpsl_lag
+  73. log_N_topics_lag
+  74. log_unique_authors_lag
+  75. log_social_attention_lag
+  76. log_developer_attention_lag
+  77. log_public_interest_lag
+  78. log_Block_invHHI2_lag2
+  79. log_Block_invHHI3
+  80. log_Block_invHHI3_lag2
+  81. log_Commit_invHHI2_lag
+  82. log_MC_lag2
+  83. log_n_proposals_lag2
+  84. log_n_completed_prpsl_lag2
+  85. log_N_topics_lag2
+  86. log_unique_authors_lag2
+  87. log_social_attention_lag2
+  88. log_developer_attention_lag2
+  89. log_public_interest_lag2
+  90. log_Block_invHHI2_lag_sq
+  91. log_Commit_invHHI_lag_sq
+  92. month
+  93. log_Block_invHHI3_lag
+  94. log_n_proposals_lag_sq
+  95. log_N_topics_sq
+  96. log_unique_authors_lag_sq
+  97. unique_authors_lag
+  98. a
+  99. b
+  100. ab
+  101. S_a
+  102. S_b
+  103. S_ab
+  104. critical_ratio
+  105. log_MC_BTC_delta
+  106. log_MC_ETH_delta
+  107. Phy_Dev_Decen_Inter
+  108. Phy_Dev_Decen_Inter_sq
+  109. Proposal_NXTopic
+  110. Proposal_NXAuthors
+  111. alexa_rank_lag
+  112. log_alexa_rank_lag
+  113. forks_lag
+  114. log_forks_lag
+  115. stars_lag
+  116. log_stars_lag
+  117. reddit_comments_48h_lag
+  118. lreddit_comments_lag
+  119. Platform_Age_lag
+  120. log_Platform_Age_lag
+  121. Date
+  122. Hashrate
+  123. log_reddit_posts_48h
+  124. lreddit_posts_lag
+  125. log_reddit_subscribers
+  126. log_reddit_subscribers_lag
+  127. log_hashrate
+  128. log_hashrate_lag
+  129. log_alexa_rank_lag7
+  130. log_forks_lag7
+  131. log_stars_lag7
+  132. log_reddit_comments_lag
+  133. log_Platform_Age_lag7
+  134. log_Block_invHHI3_sq
+  135. log_Block_invHHI3_sq_lag
+  136. log_Commit_invHHI_sq
+  137. log_Commit_invHHI_sq_lag
+  138. log_n_proposals_lag7
+  139. log_N_topics_lag7
+  140. log_unique_authors_lag7
+  141. log_social_attention_lag7
+  142. log_developer_attention_lag7
+  143. log_public_interest_lag7
+  144. log_Commit_invHHI_lag2
+  145. log_Commit_invHHI_sq_lag2
+  146. mean_difficulty
+  147. max_difficulty
+  148. Commit_invHHI_Top3_IV
+  149. Commit_invHHI_Top5_IV
+  150. Commit_invHHI_Top10_IV
+  151. Commit_invHHI_Top50per_IV
+  152. Median_Commit_invHHI_Top3_IV
+  153. Median_Commit_invHHI_Top5_IV
+  154. Median_Commit_invHHI_Top10_IV
+  155. Median_Commit_invHHI_50perIV
+  156. log_Block_invHHI3_lag_sq
+  157. max_difficulty_sq
+  158. X_est_FE2
+  159. Commit_invHHI_Top3_IV_sq
+  160. lCommit_invHHI_Top3_IV
+  161. llCommit_invHHI_Top3_IV_lag
+  162. lCommit_invHHI_Top5_IV
+  163. llCommit_invHHI_Top5_IV_lag
+  164. lCommit_invHHI_Top10_IV
+  165. llCommit_invHHI_Top10_IV_lag
+  166. lCommit_invHHI_Top50per_IV
+  167. llCommitTop50per_IV_lag
+  168. lmax_difficulty
+  169. lmax_difficulty_lag
+  170. lmax_difficulty_lag2
+  171. llCommit_invHHI_Top3_IV_lag2
+  172. llCommit_invHHI_Top5_IV_lag2
+  173. llCommit_invHHI_Top10_IV_lag2
+  174. llCommit_Top50per_IV_lag2
+  175. lmax_difficulty_lag2_sq
+  176. lCommitTop50per_IV_lag
+  177. mean_difficulty_sq
+  178. log_mean_difficulty
+  179. llCommit_IV_50per
+  180. llCommit_invHHI_Top3_IV_lag_sq
+  181. lmean_difficulty_sq
+  182. lMedian_Commit_invHHI_Top10_IV
+  183. lMed_Commit_invHHI_Top10_IV
+  184. lMed_Commit_invHHI_Top10_IV_lag2
+  185. lMed_Commit_invHHI_50perIV
+  186. lMed_Commit_invHHI_50perIV_lag2
+  187. llCommit_Top50per_lag2_sq
+  188. log_mean_difficulty_lag2
+  189. log_mean_difficulty_lag2_sq
+  190. lMed_Commit_invHHI_Top10_lag2_sq
+  191. llCommit_invHHI_Top3_IV_lag2_sq
+  192. llCommit_Top5_IV_lag2_sq
+  193. llCommit_invHHI_Top10_IV_lag2_sq
+  194. lMed_Commit_invHHI_50per_lag2_sq
+  195. z1
+  196. z2
+  197. z3
+  198. z4
+  199. z5
+  200. z6
+  201. z7
+  202. z8
+  203. z9
+  204. z10
+  205. z11
+  206. z12
+  207. z13
+  208. z14
+  209. z15
+  210. x1
+  211. x2
+  212. x4
+  213. z16
+  214. post_rust
+  215. post_hyperledger
+  216. lmean_difficulty
+  217. lmean_difficulty_lag
+  218. lmax_difficulty_lag_sq
+  219. lmean_difficulty_lag_sq
+  220. post_AntminerS9
+  221. year_week
+  222. llCommit_IV_50per_lag
+  223. variance_electricity
+  224. lvariance_electro
+  225. llCommitTop3_IV_lag_sq
+  226. llCommitTop5_IV_lag_sq
+  227. llCommitTop10_IV_lag_sq
+  228. llCommitTop50per_IV_lag_sq
+  229. lgithub_total_issues
+  230. lgithub_n_issues_lag
+  231. lreddit_subscribers
+  232. lreddit_subscribers_lag
+  233. lmax_difficulty_sq
+  234. _est_StdIV
+  235. _est_GenInst
+  236. _est_GenExtInst
+  237. lCommit_invHHI_Top10_IV_sq
+  238. lCommit_invHHI_Top50per_IV_sq
+  239. lCommit_invHHI_Top5_IV_sq
+  240. lCommit_invHHI_Top3_IV_sq
+  241. mean_residuals
+  242. TSS
+  243. total_sum_squares
+  244. SSR
+  245. sum_squared_residuals
+  246. r_squared
+  247. x3
+  248. gpu_variance
+  249. solidity_variance
+  250. solidity_variance_sq
+  251. lsolidity_variance
+  252. lsolidity_variance_sq
+  253. IV_commit_50per
+  254. IV_commit_50per_sq
+  255. log_reddit_posts_lag
+  256. Date_hr
+  257. lreddit_subscriber_lag
+  258. x1_hat
+  259. x2_hat
+  260. x3_hat
+  261. x4_hat
+  262. shannon_entropy_block
+  263. log_entropy_block
+  264. shannon_entropy_commit
+  265. log_entropy_commit
+  266. log_entropy_block_lag
+  267. log_entropy_commit_lag
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2015.0, 'week': 1.0, 'date': datetime.datetime(2346, 5, 21, 0, 0)}
+  Row 2: {'Platform': nan, 'year': nan, 'week': nan, 'date': datetime.datetime(2346, 5, 28, 0, 0)}
+  Row 3: {'Platform': nan, 'year': nan, 'week': nan, 'date': datetime.datetime(2346, 6, 4, 0, 0)}
+
+
+============================================================
+FILE: Blocks Checkpoint
+PATH: proposal/updated work/task2_blocks_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 73,150 rows × 12 columns
+💾 SIZE: 24.1 MB
+
+🔍 FOUND VARIABLES:
+  Panel Variables: difficulty
+  Time Variables: year, Platform
+
+📅 DATE INFORMATION:
+  years: [2021, 2022, 2023, 2024]
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Litecoin', 'Dogecoin', 'Bitcoin_Cash', 'Dash', 'Bitcoin_SV']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. block_id
+   3. block_hash
+   4. block_time
+   5. block_date
+   6. block_size
+   7. transaction_count
+   8. difficulty
+   9. miner
+  10. reward
+  11. fee_total
+  12. year
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2021}
+  Row 2: {'Platform': 'Bitcoin', 'year': 2021}
+  Row 3: {'Platform': 'Bitcoin', 'year': 2021}
+
+
+============================================================
+FILE: Commits Checkpoint
+PATH: proposal/updated work/task2_commits_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 40,582 rows × 13 columns
+💾 SIZE: 50.1 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: year, Platform
+
+📅 DATE INFORMATION:
+  years: [2021, 2022, 2023, 2024]
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Ethereum_Go', 'Bitcoin', 'Bitcoin_Cash', 'Dogecoin', 'Bitcoin_SV', 'Dash', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Token_id
+   2. commit_id
+   3. author_name
+   4. author_email
+   5. author_date
+   6. committer_name
+   7. committer_email
+   8. commit_date
+   9. commit_message
+  10. commit_verified
+  11. commit_reason
+  12. Platform
+  13. year
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Ethereum_Go', 'year': 2021}
+  Row 2: {'Platform': 'Ethereum_Go', 'year': 2021}
+  Row 3: {'Platform': 'Ethereum_Go', 'year': 2021}
+
+
+============================================================
+FILE: Decentralization Checkpoint
+PATH: proposal/updated work/task2_decentralization_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,467 rows × 11 columns
+💾 SIZE: 0.2 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Bitcoin_Cash', 'Bitcoin_SV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Block_Inverse_HHI
+   5. Block_Shannon_Entropy
+   6. Total_Blocks
+   7. Unique_Miners
+   8. Commit_Inverse_HHI
+   9. Commit_Shannon_Entropy
+  10. Total_Commits
+  11. Unique_Authors
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Bitcoin'}
+  Row 3: {'Platform': 'Bitcoin'}
+
+
+============================================================
+FILE: Market Checkpoint
+PATH: proposal/updated work/task2_market_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,456 rows × 5 columns
+💾 SIZE: 0.1 MB
+
+🔍 FOUND VARIABLES:
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Bitcoin Cash', 'Dogecoin', 'Bitcoin SV', 'Dash', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Market_Capitalization
+   5. Hash_Rate
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Bitcoin'}
+  Row 3: {'Platform': 'Bitcoin'}
+
+
+============================================================
+FILE: Proposals Checkpoint
+PATH: proposal/updated work/task2_proposals_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 206 rows × 5 columns
+💾 SIZE: 0.0 MB
+
+🔍 FOUND VARIABLES:
+  Proposal Variables: Number_Proposal, Topic_Diversity
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin ', 'Bitcoin Cash', 'Bitcoin SV', 'Dash', 'Dogecoin', 'Ethereum', 'Litecoin']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. Year
+   3. Week
+   4. Number_Proposal
+   5. Topic_Diversity
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin '}
+  Row 2: {'Platform': 'Bitcoin '}
+  Row 3: {'Platform': 'Bitcoin '}
+
+
+============================================================
+FILE: CryptoCompare Checkpoint
+PATH: proposal/updated work/task3_cryptocompare_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 1,462 rows × 7 columns
+💾 SIZE: 0.2 MB
+
+🔍 FOUND VARIABLES:
+  Market Variables: Volume_USD, price_USD
+  API Variables: Platform_age
+  Time Variables: date, year, week, Platform
+
+📅 DATE INFORMATION:
+  date_range: {'min': '2021-01-01 00:00:00', 'max': '2024-12-27 00:00:00'}
+  years: [2021, 2022, 2023, 2024]
+  week_range: {'min': 1, 'max': 53}
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Litecoin', 'Dogecoin', 'Dash', 'Bitcoin Cash', 'Bitcoin SV']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. date
+   3. year
+   4. week
+   5. Volume_USD
+   6. price_USD
+   7. Platform_age
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin', 'year': 2021, 'week': 53, 'date': Timestamp('2021-01-01 00:00:00')}
+  Row 2: {'Platform': 'Bitcoin', 'year': 2021, 'week': 1, 'date': Timestamp('2021-01-08 00:00:00')}
+  Row 3: {'Platform': 'Bitcoin', 'year': 2021, 'week': 2, 'date': Timestamp('2021-01-15 00:00:00')}
+
+
+============================================================
+FILE: GitHub Checkpoint
+PATH: proposal/updated work/task3_github_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 7 rows × 5 columns
+💾 SIZE: 0.0 MB
+
+🔍 FOUND VARIABLES:
+  API Variables: stars, forks
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Litecoin', 'Dogecoin', 'Dash', 'Bitcoin Cash', 'Bitcoin SV']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. stars
+   3. forks
+   4. github_created
+   5. github_updated
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Ethereum'}
+  Row 3: {'Platform': 'Litecoin'}
+
+
+============================================================
+FILE: Reddit Checkpoint
+PATH: proposal/updated work/task3_reddit_checkpoint.xlsx
+============================================================
+✅ STATUS: Successfully analyzed
+📊 SHAPE: 7 rows × 5 columns
+💾 SIZE: 0.0 MB
+
+🔍 FOUND VARIABLES:
+  API Variables: reddit_subscribers, reddit_posts, reddit_comments
+  Time Variables: Platform
+
+🏢 PLATFORM INFORMATION:
+  platforms: ['Bitcoin', 'Ethereum', 'Litecoin', 'Dogecoin', 'Dash', 'Bitcoin Cash', 'Bitcoin SV']
+  platform_count: 7
+
+📋 ALL COLUMNS:
+   1. Platform
+   2. reddit_subscribers
+   3. reddit_posts
+   4. reddit_comments
+   5. reddit_active_users
+
+📝 SAMPLE DATA (first 3 rows):
+  Row 1: {'Platform': 'Bitcoin'}
+  Row 2: {'Platform': 'Ethereum'}
+  Row 3: {'Platform': 'Litecoin'}
+
+
+================================================================================
+COMPREHENSIVE SUMMARY ANALYSIS
+================================================================================
+📊 Successfully analyzed: 22/22 files
+
+🔍 VARIABLE COVERAGE ANALYSIS:
+----------------------------------------
+
+Panel Variables:
+  Coverage: 42.9% (3/7)
+  Found: difficulty, max_difficulty, mean_difficulty
+  Missing: Block_HHI, Block_Shannon, Commit_HHI, Commit_Shannon
+
+Market Variables:
+  Coverage: 75.0% (3/4)
+  Found: Volume_USD, market_cap, price_USD
+  Missing: hashrate
+
+Proposal Variables:
+  Coverage: 75.0% (3/4)
+  Found: Number_Proposal, Topic_Diversity, topic_diversity
+  Missing: number_proposal
+
+API Variables:
+  Coverage: 100.0% (6/6)
+  Found: Platform_age, forks, reddit_comments, reddit_posts, reddit_subscribers, stars
+
+Time Variables:
+  Coverage: 100.0% (4/4)
+  Found: Platform, date, week, year
+
+📅 DATE RANGE ANALYSIS:
+----------------------------------------
+All years found across files: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+Files with 2021-2024 data: 9
+  - blockchain_block_data_real_2021_2024.xlsx
+  - blockchain_commit_data_all_2021_2024.xlsx
+  - improvement_proposals_all_platforms_2021_2024.xlsx
+  - detailed_proposal_analysis.xlsx
+  - cryptocompare_timeseries_2021_2024.xlsx
+  - difficulty_data_full_2021_2024.xlsx
+  - task2_blocks_checkpoint.xlsx
+  - task2_commits_checkpoint.xlsx
+  - task3_cryptocompare_checkpoint.xlsx
+
+🏢 PLATFORM ANALYSIS:
+----------------------------------------
+All platforms found: ['', 'Bitcoin', 'Bitcoin ', 'Bitcoin Cash', 'Bitcoin SV', 'BitcoinCash', 'BitcoinSV', 'Bitcoin_Cash', 'Bitcoin_SV', 'Dash', 'Dogecoin', 'E-Cash', 'Ethereum', 'Ethereum_Go', 'Litecoin', 'Monero', 'Z-Cash']
+
+🎯 RECOMMENDATIONS FOR 2021-2024 DATASET:
+----------------------------------------
+Based on this analysis, here are the key findings:
+
+1. DATA AVAILABILITY:
+   - 9 files contain 2021-2024 data
+   - 17 unique platforms identified
+
+2. VARIABLE COMPLETENESS:
+   - Panel Variables: 42.9% complete
+   - Market Variables: 75.0% complete
+   - Proposal Variables: 75.0% complete
+   - API Variables: 100.0% complete
+   - Time Variables: 100.0% complete
+
+3. NEXT STEPS:
+   - Focus on files with 2021-2024 data for integration
+   - Collect missing variables identified above
+   - Merge compatible datasets using Platform/year/week keys
+
+📁 Report saved to: RA_DATA_INVENTORY_REPORT.txt
